@@ -74,6 +74,11 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <Link href="/menu">
+          <ThemedText type="subtitle">Ir para meu Menu personalizado SAUF!</ThemedText>
+        </Link>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
